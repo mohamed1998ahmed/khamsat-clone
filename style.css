@@ -1,0 +1,246 @@
+/* start body */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: rgba(242, 242, 242, 0.634);
+}
+/* start navbar */
+.navbar{
+    padding: 0px 60px;
+    width: 100%;
+    background-color:#444;
+    display: flex;
+    justify-content:space-between;
+    height: 60px;
+    position: fixed;
+}
+.navbar div{
+    display: flex;
+    align-items: center;
+}
+.navbar .nav-child-left img{
+    width: 55px;
+    height: 60px;
+    border-radius: 70%;
+    padding: 11px;
+}
+.navbar a{
+    text-decoration: none !important;
+    color: white;
+    font-size: 17px;
+    height: 100%;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar a:hover{
+    background-color:rgb(135, 135, 135) ;
+}
+/* end navbar */
+/* First-sec */
+.First-sec{
+    background-image: url(photo/hero-33cc6eb8f1a98f8aacf154a4ff4c5f76d5610553e8ba4accb6d22515a64a184a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    text-align: center;
+}
+.second-sec{
+    padding: 20px;
+}
+.main{
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 26%;
+    width: 70vh;
+}
+.div2{
+    padding: 40px;
+    font-size:30px;
+    width: 900px;
+}
+.div3{
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 20px;
+    width: 900px;
+}
+.form{
+    justify-content: center;
+    width: 650px;
+    margin: 60px 140px;
+    padding: 20px;
+    text-align: right;
+}
+.ser-but{
+    height: 47px;
+    width: 85px;
+    background-color: green;
+    border-color: green;
+    position: absolute;
+    padding: 20px;
+    left: 150px;
+    top: 69%;
+}
+/* end First-sec */
+/* second-sec */
+.div4{
+    color: rgb(35, 169, 35);
+    margin: 100px;
+    text-align: center;
+    font-size: 200%;
+}
+.div5{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    margin: 20px;
+}
+.div7{
+    margin: 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    
+}
+.div7 img{
+    position:absolute;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+}
+.div7 p{
+    font-size: 250%;
+    color: aliceblue;
+}
+/* end second sec */
+/* start all section  */
+.services{
+    background-color: rgba(220, 220, 220, 0.466);
+    padding: 35px;
+}
+.title-info{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 1400px;
+}
+.btn-services a{
+    color: green;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    background-color: transparent;
+    padding: 20px;
+    border: 1px solid green;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.btn-services a:hover{
+    background-color: green;
+    color: aliceblue;
+    transition: 0.5s ease;
+}
+.title a{
+    font-size: 30px;
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+}
+.star{
+    display: flex;
+    flex-direction:row-reverse;
+    color: orange;
+}
+.div8{
+    font-size: 120%;
+}
+.div{
+    margin: 10px;
+}
+.div9{
+    display: flex;
+    justify-content: space-around;
+}
+.div10{
+    text-align: right;
+}
+/* end all section  */
+/* start footer */
+.foot{
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    font-size: 200%;
+    color: rgb(94, 94, 236);
+}
+.div13{
+    background-color: rgb(243, 243, 243);
+    padding: 6px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.div14{
+    display: flex;
+    justify-content: space-between;
+}
+.div14 p{
+    margin-left: 20px;
+    padding: 20px;
+}
+.div15{
+    margin: 100px;
+}
+.img2{
+    text-align: center;
+}
+td{
+    padding: 20px;
+    font-size: large;
+}
+table p{
+    font-size: small;
+}
+table{
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+}
+/* end footer */
+/* end body */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
